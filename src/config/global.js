@@ -105,132 +105,162 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Calder, A. (2018). <em>NIST Cybersecurity Framework: Una guía de bolsillo</em>. IT Governance Publishing Ltd.',
+      link: '',
+    },
+    {
+      referencia:
+        'Cano, J. (2011). <eem>Ciberseguridad y ciberdefensa: dos tendencias emergentes en un contexto global</em>. Sistemas (Asociación Colombiana de Ingenieros de Sistemas), 119, 4-7.',
+      link: '',
+    },
+    {
+      referencia:
+        'Dongee. (2018). <em>Las 7 vulnerabilidades más comunes de sitios web que no puedes pasar por alto</em>. Dongee. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://blog.dongee.com/las-7-vulnerabilidades-m%C3%A1s-comunes-de-sitios-web-que-no-puedes-pasar-por-alto-59f29c1c3aea',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
+        'Firma-e. (2021). <em>¿Qué es un SGSI - Sistema de Gestión de Seguridad de la Información?</em> Firma-e. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://www.firma-e.com/blog/que-es-un-sgsi-sistema-de-gestion-de-seguridad-de-la-informacion',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Gómez, M., J. (2017). <em>Gestión de la ciberseguridad según el ISO/IEC 27032:2012.</em> ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'https://www.linkedin.com/pulse/gesti%C3%B3n-de-la-ciberseguridad-seg%C3%BAn-el-isoiec-gianncarlo-g%C3%B3mez-morales',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'ISO/IEC. (2020). <em>Tecnologías de la información. Técnicas de seguridad</em>. Directrices para ciberseguridad. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'https://tienda.icontec.org/gp-tecnologias-de-la-informacion-tecnicas-de-seguridad-directrices-para-ciberseguridad-gtc-iso-iec27032-2020.html',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
+        'Portal de la Administración Electrónica - PAE (s. f.). <em>Magerit v.3: Metodología de análisis y gestión de riesgos de los sistemas de información</em>. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'https://administracionelectronica.gob.es/pae_Home/pae_Documentacion/pae_Metodolog/pae_Magerit.html',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'Presupuesto Online. (2021). <em>ISO 27001 - Certificado ISO 27001 punto por punto</em>. ',
+      link: 'https://normaiso27001.es',
+    },
+    {
+      referencia:
+        'Seguridad 7”A”. (s. f.). <em>Metodología NIST SP 800-30</em>. National Institute of Standards and Technology. ',
+      link: 'http://seguridades7a.blogspot.com/p/nist-sp-800-30.html',
+    },
+    {
+      referencia:
+        'Soriano, M. (2014). <em>Seguridad en redes y seguridad de la información.</em>',
+      link: '',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Amenaza',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'cualquier evento que puede afectar los activos de información y se relaciona, principalmente, con recursos humanos, eventos naturales o fallas técnicas.',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Aplicación',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'programa informático diseñado como una herramienta para realizar operaciones o funciones específicas. Generalmente, son diseñadas para facilitar ciertas tareas complejas y hacer más sencilla la experiencia informática de las personas.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Base de datos',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'recopilación organizada de información o datos estructurados, que normalmente se almacena de forma electrónica en un sistema informático.',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: '<em>Browser</em>',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'es el término inglés que se utiliza para identificar a un navegador <em>web</em> o navegador de internet, consiste en un <em>software</em>, programa o incluso aplicación, que ofrece al usuario el acceso a la red',
     },
     {
-      termino: 'Moda',
+      termino: 'Delegar',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'dar (a una persona u organización) un poder, una función o una responsabilidad a alguien para que los ejerza en su lugar o para obrar en representación suya.',
     },
     {
-      termino: 'Diseña',
+      termino: 'Implementación',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'poner en funcionamiento o aplicar métodos, medidas, etc., para realizar algo.',
     },
     {
-      termino: 'DIseño',
+      termino: 'Interfaz',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'en informática, es la conexión física y funcional que se establece entre dos aparatos, dispositivos o sistemas que funcionan independientemente uno del otro, en este sentido, la comunicación entre un ser humano y una computadora se realiza por medio de una interfaz.',
     },
     {
-      termino: 'Tipología',
-      significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+      termino: 'Owasp',
+      significado: '<em>Open web Application Security</em>.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Riesgo',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'posibilidad de que una amenaza se produzca, dando lugar a un ataque sobre un recurso o servicio tecnológico; esto no es otra cosa que la probabilidad de que ocurra el ataque por parte de la amenaza.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Servidor',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'conjunto de computadoras capaz de atender las peticiones de un cliente y devolverle una respuesta en concordancia.',
     },
   ],
   complementario: [
     {
-      tema: 'Estrategias para la segmentación de mercados',
+      tema: 'Tipología de ataques <em>web</em>',
       referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Belcic, I. (2020). <em>¿Qué es la inyección de SQL y cómo funciona?</em> Avast.',
+      tipo: 'Página web',
+      link: 'https://www.avast.com/es-es/c-sql-injection',
     },
     {
-      tema: 'Estrategias para la segmentación de mercados',
+      tema: 'Tipología de ataques <em>web</em>',
       referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
+        'Quanti Media Group [QuantiSolutions]. (2019). <em>Las 10 Vulnerabilidades más peligrosas usadas por aplicaciones web (Owasp 10) - 4K</em>.',
       tipo: 'Video',
-      link: 'https://www.google.com/',
+      link: 'https://www.youtube.com/embed/kNo9fZC1Isw',
     },
     {
-      tema: 'Estrategias para la segmentación de mercados',
+      tema: 'Tipología de ataques <em>web</em>',
       referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
+        'Roelcode. (2021). <em>Cómo Descargar e Instalar Java JDK 16 en Windows 10 - 2021</em>.',
       tipo: 'Video',
-      link: 'https://www.google.com/',
+      link: 'https://youtu.be/hCBEavs08as',
+    },
+    {
+      tema: 'Tipología de ataques <em>web</em>',
+      referencia:
+        'WeLiveSecurity. (2015). <em>¿En qué consiste la vulnerabilidad Cross Site Request Forgery (CSRF)?</em> We Live Security.',
+      tipo: 'Página web',
+      link:
+        'https://www.welivesecurity.com/la-es/2015/04/21/vulnerabilidad-cross-site-request-forgery-csrf/',
+    },
+    {
+      tema: 'Tipología de ataques <em>web</em>',
+      referencia:
+        'Kumar, C. (2015). <em>Cookie segura con HttpOnly y bandera segura en Apache</em>. Geekflare.',
+      tipo: 'Página web',
+      link: 'https://geekflare.com/es/httponly-secure-cookie-apache/',
+    },
+    {
+      tema: 'Clasificación de ataques',
+      referencia:
+        'GioCode [giova50000]. (2020). <em>Los tipos de malware</em> | GioCode',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/embed/A6FAqk2QDjM',
+    },
+    {
+      tema: 'Prueba de seguridad orientada a aplicaciones web',
+      referencia:
+        'De Luz, S. (2021). <em>Owasp ZAP, audita la seguridad de webs y evita vulnerabilidades</em>. RedesZone.',
+      tipo: 'Página web',
+      link:
+        'https://www.redeszone.net/tutoriales/seguridad/owasp-zap-auditar-seguridad-web/',
     },
   ],
   creditos: {
@@ -244,9 +274,31 @@ export default {
     contenidoInstruccional: [
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor metodológico y pedagógico',
+        cargo: 'Responsable equipo de desarrollo curricular ',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'David Eduardo Lozada Cerón',
+        cargo: 'Experto temático',
+        centro:
+          'Centro de Tele informática y Producción Industrial - Regional Cauca',
+      },
+      {
+        nombre: 'Paula Andrea Taborda Ortiz',
+        cargo: 'Diseñadora instruccional',
+        centro:
+          'Centro de la Industria, la Empresa y Los Servicios CIES - Regional Norte de Santander',
+      },
+      {
+        nombre: 'Andrés Felipe Velandia Espitia',
+        cargo: 'Asesor metodológico',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
+      {
+        nombre: 'José Gabriel Ortiz Abella',
+        cargo: 'Corrector de estilo',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -254,7 +306,7 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
@@ -262,45 +314,44 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'Sofia Suarez Suarez',
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Jhon Jairo Urueta Alvarez',
         cargo: 'Desarrollo Front-End',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
         nombre: 'Nombre',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Nombre',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Álvaro Andrés Angarita Ramirez',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
         nombre: 'Daniel Felipe Varón Molina',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
     ],
   },
