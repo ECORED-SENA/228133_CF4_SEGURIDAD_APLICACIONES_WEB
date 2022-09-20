@@ -1,9 +1,9 @@
 export default {
   global: {
     componenteFormativo:
-      'Pruebas de seguridad orientadas a aplicaciones web con Owasp',
+      'Pruebas de seguridad orientadas a aplicaciones <em>web</em> con Owasp',
     descripcionCurso:
-      'Este componente formativo pretende enseñar a cómo realizar pruebas de seguridad a las aplicaciones web utilizando Owasp, los niveles de seguridad, tipos de pruebas, métodos, metodologías y confidencialidad; además escanear las vulnerabilidades y el tipo de ataques orientados a estas aplicaciones y, por último, documentar los hallazgos de las pruebas realizadas.',
+      'Este componente formativo pretende enseñar a cómo realizar pruebas de seguridad a las aplicaciones <em>web</em> utilizando Owasp, los niveles de seguridad, tipos de pruebas, métodos, metodologías y confidencialidad; además escanear las vulnerabilidades y el tipo de ataques orientados a estas aplicaciones y, por último, documentar los hallazgos de las pruebas realizadas.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
@@ -38,7 +38,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Tipología de ataques web',
+        titulo: 'Tipología de ataques <em>web</em>',
         desarrolloContenidos: true,
       },
       {
@@ -52,14 +52,14 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Prueba de seguridad orientada a aplicaciones web',
+        titulo: 'Prueba de seguridad orientada a aplicaciones <em>web</em>',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Documentación de hallazgos ',
+        titulo: 'Documentación de hallazgos',
         desarrolloContenidos: true,
       },
     ],
@@ -320,19 +320,55 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Jhon Jairo Urueta Alvarez',
-        cargo: 'Desarrollo Front-End',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Revisión de guion audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'María Carolina Tamayo López',
+        cargo: 'Locución',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Miguel Guerrero Gutiérrez',
+        cargo: 'Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Validación ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'John Jairo Arciniegas González',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Validación de diseño y contenido',
+        nombre: 'Pedro Nel Calao Zabala',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Validación audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Jhon Jairo Urueta Alvarez',
+        cargo: 'Desarrollo front-end',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'María Eugenia Mejía López',
+        cargo: 'Validación contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },

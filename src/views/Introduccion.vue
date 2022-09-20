@@ -8,7 +8,7 @@
         span
           i.fas.fa-info
       h1 Introducción
-    p.mb-5 Le damos la bienvenida al componente formativo denominado #[b.txt-c1 “Pruebas de seguridad Orientadas a aplicaciones web con Owasp”]. Este componente enseñará cómo realizar las pruebas a las aplicaciones web de las organizaciones teniendo en cuenta un Plan de pruebas diseñado anteriormente, siguiendo el top ten (10) del Owasp, para lo cual se invita a observar el siguiente video introductorio.
+    p.mb-5 Le damos la bienvenida al componente formativo denominado #[b.txt-c1 “Pruebas de seguridad orientadas a aplicaciones #[i web] con Owasp”]. Este componente enseñará cómo realizar las pruebas a las aplicaciones #[i web] de las organizaciones teniendo en cuenta un plan de pruebas diseñado anteriormente, siguiendo el #[i top ten] (10) del Owasp, para lo cual se invita a observar el siguiente video introductorio.
     figure
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/B919sz8OYrg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)

@@ -22,8 +22,8 @@
       .col-lg-7.mb-4.mb-lg-0
         .row.mb-4
           .col-12.bg-c3.p-4
-            p Para hacer las pruebas es necesario conocer las anteriores terminologías, pues existen diversas técnicas que son utilizadas para atacar una aplicación web y que datos son sensibles a vulnerabilidades; por ello, es necesario contar con una herramienta adecuada para hacer diagnósticos y detectar cada vulnerabilidad.
-            p.mb-0 Por lo anterior, en adelante se encontrará en este componente formativo una prueba a un sitio web, en la que se utilizará una herramienta de detección de vulnerabilidades a una aplicación.
+            p Para hacer las pruebas es necesario conocer las anteriores terminologías, pues existen diversas técnicas que son utilizadas para atacar una aplicación #[i web] y que datos son sensibles a vulnerabilidades; por ello, es necesario contar con una herramienta adecuada para hacer diagnósticos y detectar cada vulnerabilidad.
+            p.mb-0 Por lo anterior, en adelante se encontrará en este componente formativo una prueba a un sitio #[i web], en la que se utilizará una herramienta de detección de vulnerabilidades a una aplicación.
         .row
           .col-12.bg-c4.p-4
             .row.justify-content-center.align-items-center
