@@ -3,22 +3,22 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 3
       h1 Prueba de seguridad orientada a aplicaciones #[i web]
-    p.mb-5 Con miras a la ejecución de una prueba de seguridad es necesario observar el video tutorial que se presenta a continuación, el cual brinda los elementos para utilizar la herramienta Owasp ZAP, de manera correcta.
-    figure.mb-5
+    p.mb-5(data-aos="fade-up") Con miras a la ejecución de una prueba de seguridad es necesario observar el video tutorial que se presenta a continuación, el cual brinda los elementos para utilizar la herramienta Owasp ZAP, de manera correcta.
+    figure.mb-5(data-aos="fade-right")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/VVug58Jaoxo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.align-items-center.mb-5
-      .col-lg.mb-4.mb-lg-0
+      .col-lg.mb-4.mb-lg-0(data-aos="fade-right")
         p A continuación, se muestra una forma práctica de identificar vulnerabilidades, que, aunque no se sepa cómo explotarlas, es seguro que hay quien sí lo haga en perjuicio de una persona, o cliente y sus reputaciones. Por razones de seguridad con las empresas testeadas, los ejemplos que se presentarán han sido tomados de alguna página #[i web] de una entidad del Estado, de la cual se reservará el nombre y sus datos, además que la imagen gráfica será editada para no comprometer la reputación de la entidad.
         p.mb-0 Para iniciar, se debe instalar la aplicación Owasp ZAP, en un sistema Windows 10, este aplicativo tiene como propósito hacer pruebas de vulnerabilidad en aplicaciones y tiene como prerrequisito la instalación de JDK de JAVA, por tanto, para realizar estas instalaciones, debe recurrir al material complementario de este componente formativo, específicamente al denominado #[b.txt-c1 “Owasp ZAP, audita la seguridad de #[i webs] y evita vulnerabilidades”] (De Luz, 2021), allí se encuentran los enlaces de los manuales, en caso de que no se tengan estas dos aplicaciones en el computador.
-      .col-lg-auto
+      .col-lg-auto(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema3/img1.png')
-    .tarjeta.tarjeta--gris.p-4.p-lg-5.mb-5
+    .tarjeta.tarjeta--gris.p-4.p-lg-5.mb-5(data-aos="fade-right")
       PasosB.color-acento-contenido
         .row.justify-content-center(titulo="")
           .col-10.p-4
@@ -145,23 +145,23 @@
                     i.fas.fa-play(style="color: #294DDC")
                     |
                     p.mb-0 Por temas de tiempo no solo se toma un pantallazo los 6 minutos, seguramente si la prueba dura unos 20 minutos encontraría más vulnerabilidades.
-    p.mb-5.text-center En el anterior ejercicio práctico de identificación de vulnerabilidades, se hallaron dos vulnerabilidades, que a continuación se detallarán:
-    .row.justify-content-center.mb-5
-      .col.col-lg-4.mb-4.mb-lg-0
+    p.mb-5.text-center(data-aos="fade-down") En el anterior ejercicio práctico de identificación de vulnerabilidades, se hallaron dos vulnerabilidades, que a continuación se detallarán:
+    .row.justify-content-center.mb-5(data-aos="fade-left")
+      .col-md-8.col-lg-4.mb-4.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema3/img1.svg' alt='AvatarTop')
           .tarjeta.color-primario
             .text-white.p-5
               h4.text-center Absence of Anti-CSRF Tokens
               p Según el reporte en la imagen, la página #[i web] tiene 208 formularios vulnerables a ataques de SCRF.
-      .col.col-lg-4.mb-4.mb-lg-0
+      .col-md-8.col-lg-4.mb-4.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema3/img2.svg' alt='AvatarTop')
           .tarjeta.color-primario
             .text-white.p-5
               h4.text-center Cookie No HttpOnly Flag
               p Esta vulnerabilidad trata que otras #[i webs] pueden acceder a los datos de usuario o datos de sesión basados en #[i cookies]. Se resuelve de varias maneras, tal vez la más sencilla es agregando una configuración en el servidor.
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-up")
       .col-lg-8.p-4.bg-c6
         .row.align-items-center
           .col-auto
@@ -169,8 +169,8 @@
               img(src='@/assets/curso/tema3/img3.svg')
           .col
             p.mb-0 Para conocer cómo resolver los dos anteriores hallazgos, se debe remitir al material complementario de este componente formativo.
-    p.mb-5 El siguiente es otro ejemplo de un caso también crítico y fácilmente explotable.
-    .row.justify-content-center.mb-5
+    p.text-center.mb-5(data-aos="fade-right") El siguiente es otro ejemplo de un caso también crítico y fácilmente explotable.
+    .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-8
         ImagenInfograficaB.color-acento-botones
           template(v-slot:imagen)
@@ -183,10 +183,10 @@
             figure
               img(src='@/assets/curso/tema3/img15.png')
     .row
-      .col-lg-auto.mb-4.mb-lg-0
+      .col-lg-12.col-xl-6.mb-4.mb-xl-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema3/img13.png')
-      .col-lg
+      .col-lg(data-aos="fade-left")
         p Este sitio #[i web] está usando una librería jQuery Mobile en su versión 1.4.5, pero esa versión de esta librería tiene vulnerabilidades detectadas por la comunidad JQuery y seguramente en los foros de la comunidad jQuery se detectó y es un indicio de cómo vulnerar este sistema, pero en la imagen se propone una solución y es que se actualice la librería.
         p.mb-0 Si se observa en el resultado de las pruebas, los ataques que hace la herramienta a los sitios #[i web] que se van a probar son los mencionados uno a uno en el primer tema de este componente formativo.
 

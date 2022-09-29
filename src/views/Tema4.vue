@@ -3,28 +3,28 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 4
       h1 Documentación de hallazgos
-    p.mb-5 La documentación de hallazgos es el resultado del ejercicio realizado durante la ejecución del proceso de auditoría, que las entidades de fiscalización generan sobre la gestión de todos los procesos de los auditados (personas, instituciones, empresas, etc.) y que servirá para evaluar si se cumple o no con lo que se está auditando. En el siguiente tutorial se brinda información sobre cómo realizar un reporte.
-    figure.mb-5
+    p.mb-5(data-aos="fade-right") La documentación de hallazgos es el resultado del ejercicio realizado durante la ejecución del proceso de auditoría, que las entidades de fiscalización generan sobre la gestión de todos los procesos de los auditados (personas, instituciones, empresas, etc.) y que servirá para evaluar si se cumple o no con lo que se está auditando. En el siguiente tutorial se brinda información sobre cómo realizar un reporte.
+    figure.mb-5(data-aos="fade-up")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/jOsSzKCZeEw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.align-items-center.mb-5
-      .col-lg-auto.mb-4.mb-lg-0
+      .col-lg-auto.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema4/img1.svg')
-      .col-lg
+      .col-lg(data-aos="fade-left")
         p La documentación y saber mostrar los resultados de las pruebas a los clientes u organizaciones es muy importante, además, aprender a interpretarlos ayudará a darle una visión al trabajo posterior de las pruebas, ofreciendo unas recomendaciones para corregir esas vulnerabilidades.
         p.mb-0 Por lo anterior, en el siguiente video se mostrará cómo se genera el reporte de los hallazgos y cómo se debe interpretar. Esta herramienta permite exportar un reporte en PDF y uno en HTML y se va a mostrar cada uno de ellos explicando #[i grosso modo] cómo deben interpretarse.
-    figure.mb-5
+    figure.mb-5(data-aos="fade-up")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/dJAFsCinFFg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.justify-content-center.mb-5
       .col-lg-10
-        p.mb-5 Luego de tener el listado del reporte, se describen los siguientes pasos cada una de las secciones de este para tener una mejor comprensión de este.
-        LineaTiempoD.color-acento-botones
+        p.mb-5(data-aos="fade-right") Luego de tener el listado del reporte, se describen los siguientes pasos cada una de las secciones de este para tener una mejor comprensión de este.
+        LineaTiempoD.color-acento-botones(data-aos="fade-left")
           .row(numero="1" titulo="Tomar la información general del reporte")
             .col-12
               p.mb-4 En esta primera sección se muestran algunos datos generales del reporte, como el dominio donde está la aplicación a la que se le realizaron las pruebas, la descripción del nivel de los riesgos y los niveles de confianza.
@@ -77,7 +77,7 @@
                 .col-lg-6
                   figure
                     img(src='@/assets/curso/tema4/img8.png')
-    p Es preciso recordar que estas pruebas deben realizarse con previa autorización de los dueños de las aplicaciones y que este tipo de informes son netamente confidenciales.
+    p(data-aos="fade-right") Es preciso recordar que estas pruebas deben realizarse con previa autorización de los dueños de las aplicaciones y que este tipo de informes son netamente confidenciales.
 
 </template>
 

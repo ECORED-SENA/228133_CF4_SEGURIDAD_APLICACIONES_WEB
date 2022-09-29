@@ -3,20 +3,19 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Tipología de ataques #[i web]
-    p.mb-5 Para las organizaciones en la actualidad es indispensable adquirir aplicaciones #[i web] como base tecnológica para darse a conocer, por esta razón muchas empresas y negocios apuestan a incluir estas tecnologías como estrategia para competir en el mercado; estas plataformas son importantes para una empresa, porque automatizan los procesos, simplifican las tareas volviéndose más eficientes al momento de prestar sus servicios al cliente y, lo mejor de todo, es que funcionan solo desde un navegador, por lo que no hace falta instalar paquetes al computador y su acceso es desde cualquier dispositivo con una previa autenticación.
-    .row.align-items-center.bg-c1.mb-5
+    p.mb-5(data-aos="fade-right") Para las organizaciones en la actualidad es indispensable adquirir aplicaciones #[i web] como base tecnológica para darse a conocer, por esta razón muchas empresas y negocios apuestan a incluir estas tecnologías como estrategia para competir en el mercado; estas plataformas son importantes para una empresa, porque automatizan los procesos, simplifican las tareas volviéndose más eficientes al momento de prestar sus servicios al cliente y, lo mejor de todo, es que funcionan solo desde un navegador, por lo que no hace falta instalar paquetes al computador y su acceso es desde cualquier dispositivo con una previa autenticación.
+    .row.align-items-center.bg-c1.mb-5(data-aos="fade-left")
       .col-lg.mb-4.mb-lg-0
-        p.ms-0.ms-lg-5 #[b Figura 1]. #[i Seguridad de datos globales]
         p.ms-0.ms-lg-5 La principal función actualmente de las aplicaciones #[i web] es que el usuario o cliente realice una tarea, como comprar, realizar pagos a la empresa, realizar una transacción bancaria, editar textos, fotos y muchas más acciones y prestar un sinfín de servicios, por esta razón se han vuelto tan populares.
         p.ms-0.ms-lg-5 Entre muchas de sus ventajas, se presenta una desventaja con la que hay que tener mucho cuidado y son las brechas de seguridad y vulnerabilidades.
       .col-lg-auto
         figure.my-0.my-lg-3
           img(src='@/assets/curso/tema1/img1.svg')
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-up")
       .col-lg-10.bg-c2.p-4
         .row.justify-content-center.align-items-center
           .col-5.col-lg-auto.mb-4.mb-lg-0
@@ -26,10 +25,10 @@
             p.mb-0 Según el informe #[i Automated Code Analysis: web Application Vulnerabilities in 2017], 94% de las aplicaciones #[i web] contienen una vulnerabilidad muy grave y 85% una vulnerabilidad explotable, por ello, hoy día es esencial utilizar una herramienta de escaneo de vulnerabilidades en aplicaciones #[i web], pues de lo contrario, una empresa podría ser blanco de ciberdelincuentes (gbadvisors,TechBlog, s. f.).
     p.mb-5 Para escanear las vulnerabilidades hay que conocer cuáles son, por eso, se muestran y se describen los riesgos más identificados de seguridad a las aplicaciones #[i web], a saber:
     .row.align-items-center
-      .col-lg-5.mb-4.mb-lg-0
+      .col-lg-5.mb-4.mb-lg-0(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img4.svg')
-      .col-lg-7
+      .col-lg-7(data-aos="fade-right")
         LineaTiempoD.color-acento-botones
           p(numero="1" titulo="Clickjacking") Estos ataques son muy comunes para atacar y capturar datos confidenciales en páginas como Facebook y Twitter.<br>Suplanta funcionalidades de la página principal y redirecciona al usuario a diferentes dominios, especialmente al diligenciar formularios como el #[i login] y #[i password], enviando la información a un correo electrónico del pirata informático.
           p(numero="2" titulo="Cross Site Scripting (XSS)") Es una vulnerabilidad muy común y bastante utilizada, se encuentra en muchas de las aplicaciones #[i web].<br>Esta vulnerabilidad le permite al pirata informático insertar un código malicioso dentro de las aplicaciones que frecuentan los cibernautas evitando el acceso al sitio y también es utilizado para la práctica del #[i phishing].
