@@ -1,1 +1,1 @@
-module.exports = 'Pruebas de seguridad orientadas a aplicaciones web con Owasp'
+module.exports = 'Pruebas de seguridad orientadas a aplicaciones web con OSWAP'

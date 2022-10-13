@@ -1,9 +1,9 @@
 export default {
   global: {
     componenteFormativo:
-      'Pruebas de seguridad orientadas a aplicaciones <em>web</em> con Owasp',
+      'Pruebas de seguridad orientadas a aplicaciones <em>web</em> con OSWAP',
     descripcionCurso:
-      'Este componente formativo pretende enseñar a cómo realizar pruebas de seguridad a las aplicaciones <em>web</em> utilizando Owasp, los niveles de seguridad, tipos de pruebas, métodos, metodologías y confidencialidad; además escanear las vulnerabilidades y el tipo de ataques orientados a estas aplicaciones y, por último, documentar los hallazgos de las pruebas realizadas.',
+      'Este componente formativo pretende enseñar a cómo realizar pruebas de seguridad a las aplicaciones <em>web</em> utilizando OSWAP, los niveles de seguridad, tipos de pruebas, métodos, metodologías y confidencialidad; además escanear las vulnerabilidades y el tipo de ataques orientados a estas aplicaciones y, por último, documentar los hallazgos de las pruebas realizadas.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
@@ -150,7 +150,7 @@ export default {
     },
     {
       referencia:
-        'Seguridad 7”A”. (s. f.). <em>Metodología NIST SP 800-30</em>. National Institute of Standards and Technology. ',
+        'Seguridad 7”A”. (s. f.). <em>Metodología NIST SP 800-30. National Institute of Standards and Technology</em>. ',
       link: 'http://seguridades7a.blogspot.com/p/nist-sp-800-30.html',
     },
     {
@@ -178,7 +178,7 @@ export default {
     {
       termino: '<em>Browser</em>',
       significado:
-        'es el término inglés que se utiliza para identificar a un navegador <em>web</em> o navegador de internet, consiste en un <em>software</em>, programa o incluso aplicación, que ofrece al usuario el acceso a la red',
+        'es el término inglés que se utiliza para identificar a un navegador <em>web</em> o navegador de internet, consiste en un <em>software</em>, programa o incluso aplicación, que ofrece al usuario el acceso a la red.',
     },
     {
       termino: 'Delegar',
@@ -196,7 +196,7 @@ export default {
         'en informática, es la conexión física y funcional que se establece entre dos aparatos, dispositivos o sistemas que funcionan independientemente uno del otro, en este sentido, la comunicación entre un ser humano y una computadora se realiza por medio de una interfaz.',
     },
     {
-      termino: 'Owasp',
+      termino: 'OSWAP',
       significado: '<em>Open web Application Security</em>.',
     },
     {
@@ -221,7 +221,7 @@ export default {
     {
       tema: 'Tipología de ataques <em>web</em>',
       referencia:
-        'Quanti Media Group [QuantiSolutions]. (2019). <em>Las 10 Vulnerabilidades más peligrosas usadas por aplicaciones web (Owasp 10) - 4K</em>.',
+        'Quanti Media Group [QuantiSolutions]. (2019). <em>Las 10 Vulnerabilidades más peligrosas usadas por aplicaciones web (OSWAP 10) - 4K</em>.',
       tipo: 'Video',
       link: 'https://www.youtube.com/embed/kNo9fZC1Isw',
     },
@@ -257,7 +257,7 @@ export default {
     {
       tema: 'Prueba de seguridad orientada a aplicaciones web',
       referencia:
-        'De Luz, S. (2021). <em>Owasp ZAP, audita la seguridad de webs y evita vulnerabilidades</em>. RedesZone.',
+        'De Luz, S. (2021). <em>OSWAP ZAP, audita la seguridad de webs y evita vulnerabilidades</em>. RedesZone.',
       tipo: 'Página web',
       link:
         'https://www.redeszone.net/tutoriales/seguridad/owasp-zap-auditar-seguridad-web/',
@@ -375,17 +375,17 @@ export default {
     ],
     gestoresRepositorio: [
       {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-      {
-        nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-      {
         nombre: 'Milady Tatiana Villamil Castellanos',
+        cargo: 'Validación y vinculación en plataforma LMS',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Jhon Fredy Rodriguez Castiblanco',
+        cargo: 'Validación y vinculación en plataforma LMS',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Luis Fernando Amortegui Garcia',
         cargo: 'Validación y vinculación en plataforma LMS',
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
