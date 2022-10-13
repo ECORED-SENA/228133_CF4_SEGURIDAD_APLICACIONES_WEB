@@ -1,4 +1,4 @@
-# **Pruebas de seguridad orientadas a aplicaciones web con Owasp**
+# **Pruebas de seguridad orientadas a aplicaciones web con OWASP**
 
 ## **Enlace GitHubPages**
 

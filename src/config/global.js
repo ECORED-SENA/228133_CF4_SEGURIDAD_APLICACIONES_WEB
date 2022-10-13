@@ -1,9 +1,9 @@
 export default {
   global: {
     componenteFormativo:
-      'Pruebas de seguridad orientadas a aplicaciones <em>web</em> con OSWAP',
+      'Pruebas de seguridad orientadas a aplicaciones <em>web</em> con OWASP',
     descripcionCurso:
-      'Este componente formativo pretende enseñar a cómo realizar pruebas de seguridad a las aplicaciones <em>web</em> utilizando OSWAP, los niveles de seguridad, tipos de pruebas, métodos, metodologías y confidencialidad; además escanear las vulnerabilidades y el tipo de ataques orientados a estas aplicaciones y, por último, documentar los hallazgos de las pruebas realizadas.',
+      'Este componente formativo pretende enseñar a cómo realizar pruebas de seguridad a las aplicaciones <em>web</em> utilizando OWASP, los niveles de seguridad, tipos de pruebas, métodos, metodologías y confidencialidad; además escanear las vulnerabilidades y el tipo de ataques orientados a estas aplicaciones y, por último, documentar los hallazgos de las pruebas realizadas.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
@@ -196,7 +196,7 @@ export default {
         'en informática, es la conexión física y funcional que se establece entre dos aparatos, dispositivos o sistemas que funcionan independientemente uno del otro, en este sentido, la comunicación entre un ser humano y una computadora se realiza por medio de una interfaz.',
     },
     {
-      termino: 'OSWAP',
+      termino: 'OWASP',
       significado: '<em>Open web Application Security</em>.',
     },
     {
@@ -221,7 +221,7 @@ export default {
     {
       tema: 'Tipología de ataques <em>web</em>',
       referencia:
-        'Quanti Media Group [QuantiSolutions]. (2019). <em>Las 10 Vulnerabilidades más peligrosas usadas por aplicaciones web (OSWAP 10) - 4K</em>.',
+        'Quanti Media Group [QuantiSolutions]. (2019). <em>Las 10 Vulnerabilidades más peligrosas usadas por aplicaciones web (OWASP 10) - 4K</em>.',
       tipo: 'Video',
       link: 'https://www.youtube.com/embed/kNo9fZC1Isw',
     },
@@ -257,7 +257,7 @@ export default {
     {
       tema: 'Prueba de seguridad orientada a aplicaciones web',
       referencia:
-        'De Luz, S. (2021). <em>OSWAP ZAP, audita la seguridad de webs y evita vulnerabilidades</em>. RedesZone.',
+        'De Luz, S. (2021). <em>OWASP ZAP, audita la seguridad de webs y evita vulnerabilidades</em>. RedesZone.',
       tipo: 'Página web',
       link:
         'https://www.redeszone.net/tutoriales/seguridad/owasp-zap-auditar-seguridad-web/',
